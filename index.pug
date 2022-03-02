@@ -1,23 +1,26 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(name='viewport' content='width=device-width' initial-scale='1.0')
-  title CodePen - new home
-  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css')
-  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css')
-  link(rel='stylesheet' href='./style.css')
-// partial:index.partial.html
-link(rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons')
+link(
+  rel="stylesheet",
+  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css",
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p",
+  crossorigin="anonymous"
+)
+
+link(rel="preconnect" href="https://fonts.googleapis.com")
+link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap")
+link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&display=swap")
+
+link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
 .container-fluid
   .menuShowContainer
     .menuShowContent
       .menu-items
-        a(href='#')
-          li About
-        a(href='#')
-          li &#x4F5C;&#x54C1;&#x96C6;
-        a(href='#')
-          li Content
+        a(href="#")
+          li text
+        a(href="#")
+          li text
+        a(href="#")
+          li text
   .row.p-0
     .headerContainer
       .heraderContent
@@ -29,135 +32,129 @@ link(rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Ic
           .menuContent
             .menu
               span.material-icons menu
-  .row
-    .col.banner_content
-      .banner_img
+      
+  //- header-end
+  .row.scroll
+    .col-10.aboutBanner_content.side
+      .aboutBanner_img
+  //- banner-contanet end
   .row
     .col-12.aboutContent.scroll
       .col-8.aboutText.m-auto
         h1.side About
-        p.side &#x5584;&#x65BC;&#x8DE8;&#x90E8;&#x9580;&#x6E9D;&#x901A;&#x8207;&#x6642;&#x7A0B;&#x898F;&#x5283;&#xFF0C;&#x64C1;&#x62B1;&#x6311;&#x6230;&#x65B0;&#x4E8B;&#x7269;&#xFF0C;&#x5728;&#x5FEB;&#x901F;&#x8FED;&#x4EE3;&#x7684;&#x74B0;&#x5883;&#x4E2D;&#x80FD;&#x7368;&#x7ACB;&#x5DE5;&#x4F5C;&#x3002; &#x76EE;&#x524D;&#x4E3B;&#x8981;&#x5F9E;&#x4E8B;&#x7DB2;&#x9801;&#x8207;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;UIUX&#x3001;&#x97FF;&#x61C9;&#x5F0F;&#x7DB2;&#x7AD9;&#x3001;&#x7BA1;&#x7406;&#x7CFB;&#x7D71;&#x4ECB;&#x9762;&#x8A2D;&#x8A08;&#x5DE5;&#x4F5C;&#x3002; 
-        .button.side
-          a(href='#') More
+        .col-10.side
+          p 關鍵評論網 UI / UX Design 2021/03 - 2022
+          span - B to B 後台系統建置 UI 流程規劃，了解市場需求反饋優化 to B 後台 
+          br
+          span - 規劃整體使用者流程，Prototype / Mockup / WireFrame 示意規劃製作
+          br
+          span - 制定前端視覺 / UI 元件 原子化 協作前端視覺製作 / icon 製作
+          br
+          span - 集團官方網站設計(web/mobile)版本規劃與製作
+          br
+          span - 品牌CIS設計，整體設計規範制定，品牌形象視覺規劃
+        .col-10.side
+          p 自由接案 free-lancer 2020/03 - 2021/03
+          span UI / UX
+          br
+          span - 頁面設計 / 整體流程規劃 / 優化頁面使用者體驗 / 設計規範定義 / 
+          br
+          span Ｗeb/Mobile
+          br
+          span - 網頁設計 / 前端網站串寫 / 手機版本製作 / 重構網站設計製作 /  
+          br
+          span Graphic
+          br
+          span - CIS / VI / Logo設計 / 名片設計 / DM設計 / 品牌形象重構 / 包裝設計 / 廣告Banner設計
+          br
+        .col-10.side
+          p 星辰軟體 UI Design 2019/10 - 2020/03
+          span - APP流程設計規劃  / 優化頁面使用者體驗 / 設計規範定義 
+          br
+          span - 網頁設計  / 手機版本製作 /   
+          br
+          span - CIS / VI / Logo設計 / 名片設計 / 廣告Banner設計
+        .col-10.side
+          p 達愉軟件 2018/08 - 2019/08
+          span - Adobe After Effects 2D平面動畫製程製作導入 Unity執行
+          br
+          span - 遊戲UI元件繪畫製作
+          br
+          span - 官網製作設計規劃，遊戲大廳設計規劃
+          br
+          span - CIS / VI / Logo設計 / 名片設計 / 廣告Banner設計
+        .col-10.side
+          p 華美航運 Web Design 2017/01 - 2018/07
+          span - GDN廣告投放設計 / Mail形象 EDM 規劃編寫設計
+          br
+          span - 形象網站設計編寫 / 活動網站設計編寫 / 優化官網使用者動線流程
+          br
+          span - 品牌 CIS / VI / Logo設計 / 名片設計 /主要活動形象設計  
+        .col-10.side
+          p 赫彩設計 Graphic Design 2016/01 - 2017/01
+          span CIS / VI / Logo設計 / 平面設計 / 廣告設計 / DM設計 / 包裝設計
+        .col-10.side
+          p 明婧生技 Graphic Design 2015/01 - 2016/01
+          span CIS / VI / Logo設計 / 平面設計 / 廣告設計 / DM設計 / 包裝設計
   .row
-    .banner_content
-      .banner_img
-  .row
+    .col-12.aboutContent.scroll.py-0
+      .col-8.aboutText.m-auto
+        h1.side Project experience
+        .col-10
+          p.side - Myfriend LOGO設計 CIS設計 網站架設
+          br
+          p.side - ETOVS品牌官網設計 百貨公司專櫃型錄設計，官網風格設計製作
+          br
+          p.side - 參加台科大生肖創意設計國際競賽活動 
+          br
+          p.side - 博客來- 出版社書封文宣製作
+          br
+          p.side - 工研院環保頁面設計
+          br
+          p.side - 高密度工作書籍（心理測驗網站）設計書籍插圖，架設心理測驗網站內容
+          br
+          p.side - 少小白文宣 品牌形象設計 Logo設計 文宣設計 Menu設計
+          br
+  .row.scroll
+    .col-10.aboutBanner_content.side
+      .aboutBanner_img
+  section.skillContainer
+    .row
     .col-12.aboutContent.scroll
-      .col-8.aboutText.mx-auto
-        h1.side Experience
-      .col-8.ExperienceContainer.m-auto
-        .ExperienceImg.side
-      .col-8.workText.mx-auto
-        h3.side Experience
-        p.side &#x5DE5;&#x4F5C;&#x7D93;&#x6B77; / &#x63A5;&#x6848; &#x7D2F;&#x8A08;&#x81F3;&#x4ECA;&#x4F5C;&#x54C1;&#x7DB2;&#x7AD9;
-        a(href='https://www.behance.net/harry610333e08' target='_blank')
-          .linkTet.side &#x4F5C;&#x54C1;&#x96C6;
-  section.workContainer.scroll
-    .col-10.workContent
-      .row
-        .workText.side
-          h1 Work
-      .row
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/01.jpeg' alt='#')
-              a(href='#' target='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 DAEX INTELLIGENT
-              p &#x95DC;&#x9375;&#x8A55;&#x8AD6;&#x7DB2; - DaEX 
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/02.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/114789939/Rain4' target='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 Rain4
-              p Rain4 &#x5F62;&#x8C61;&#x8996;&#x89BA;&#x7DB2;&#x7AD9;&#x898F;&#x5283;&#x8A2D;&#x8A08;
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/03.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/99078521/_' targel='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 &#x83EF;&#x7F8E;&#x822A;&#x904B; - &#x751F;&#x614B;&#x5708;
-              p &#x5DF2;&#x751F;&#x614B;&#x5708;&#x6558;&#x8FF0;&#x6574;&#x9AD4;&#x96C6;&#x5718;&#x71DF;&#x696D;&#x9805;&#x76EE;
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/04.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/115511455/G-Man-' trangel='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 G Man app
-              p &#x5065;&#x8EAB;App UI Design
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/05.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/99045573/_' target='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 &#x5C11;&#x5C0F;&#x767D;
-              p &#x5C11;&#x5C0F;&#x767D; - &#x4F01;&#x696D;&#x5F62;&#x8C61;&#x8A2D;&#x8A08;
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/06.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/99076115/APP' target='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 &#x611B;&#x8A55;&#x7DB2;
-              p &#x611B;&#x8A55;&#x7DB2; UI Design
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/07.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/101645925/_' target='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 &#x5305;&#x88DD;&#x8A2D;&#x8A08;
-              p &#x5BF5;&#x7269;&#x7528;&#x54C1; - &#x5305;&#x88DD;&#x8A2D;&#x8A08;
-        .workItemts.side
-          .workImgContainer
-            .workImg
-              img(src='img/08.jpeg' alt='#')
-              a(href='https://www.behance.net/gallery/99073561/_' target='_blank')
-                .workBlack
-                  .blackText More 
-          .workTextContainer
-            .workTextBox
-              h4 &#x540D;&#x7247;&#x8A2D;&#x8A08;
-              p &#x8001;&#x864E;&#x7259;&#x5B50;&#x54C1;&#x724C; - &#x540D;&#x7247;&#x8A2D;&#x8A08;
-  footer.footerContainer
+      .col-8.aboutText.m-auto
+        h1.side Skill
+        .col-10.side
+          h5 UI
+          p.skillText 使用 Figma / Sketch / XD
+          span - 製定可重用 Design System / Guideline
+          br
+          span - 整頓新舊版本，Component Symbol 
+        .col-10.side
+          h5 UX
+          p.skillText 使用 Zeplin / Mockup / Wireframe / Prototype 
+          span - 繪製產品線框圖、流程圖與 PM.RD 進行溝通的協作，確保技術可行性
+          br
+          span - 優化設計以改善產品的使用者體驗、維護性和擴充性
+        .col-10.side
+          h5 Front end
+          p.skillText 使用 HTML / Css / Jquery / JavaScript / Pug / Sass / Bootstrap / RWD
+          span - 瞭解網頁技能 HTML、CSS（RWD) 
+          br
+          span - 關注各式網頁動態特效，與工程師溝通討論最佳可適方案 
+        .col-10.side
+          h5 Graphic
+          p.skillText PS / AI
+          span - icon / 插圖繪製
+          br
+          span - 行銷 campaign 主視覺、社群行銷素材、Google 多媒體聯播網廣告
+          //- skill Container End
+  footer.footerContainer  
     .footerContent
       .footerTextContent
         .contentText
           h1 Contnet
-          a(traget='_blank' rel='noreferrer noopenner' href='harry61033@gmail.com')
+          a(traget="_blank" rel="noreferrer noopenner" href="harry61033@gmail.com")
             span harry61033@gmail.com
 .Copyright
   .CopyrightBox
-    span Copyright&copy; 2022 RoyXiongDesign
-// partial
-script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
-script(src='https://cdn.jsdelivr.net/npm/jquery-inview@1.1.2/jquery.inview.min.js')
-script(src='./script.js')
+    span Copyright© 2022 RoyXiongDesign
